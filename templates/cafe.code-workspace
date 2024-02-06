@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "cafe",
+			"path": ".."
+		},
+		{
+			"name": "templates",
+			"path": "../../../New folder/templates"
+		}
+	],
+	"settings": {}
+}
