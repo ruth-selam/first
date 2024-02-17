@@ -29,6 +29,13 @@ def water():
     return render_template("food.html", first_food="1/4litre...........2", second_food="1/2...........3", third_food="1 litre................4", fourth_food="2 litre..............45", image="water")
 @app.route("/cake")
 def cake():
+ liyu
     return render_template("food.html", first_food="black forest...........9", second_food="white forest...........9", third_food="caramel................5", fourth_food="millifoli..............6", image="cake")
+
+    return render_template("food.html", first_food="black forest...........90", second_food="white forest...........90", third_food="caramel................50", fourth_food="millifoli..............60", image="cake")
+@app.route("/traditional")
+def traditional():
+    return render_template("traditional.html")
+ master
 if __name__ == "__main__":
     app.run()
