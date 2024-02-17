@@ -30,5 +30,8 @@ def water():
 @app.route("/cake")
 def cake():
     return render_template("food.html", first_food="black forest...........90", second_food="white forest...........90", third_food="caramel................50", fourth_food="millifoli..............60", image="cake")
+@app.route("/traditional")
+def traditional():
+    return render_template("traditional.html")
 if __name__ == "__main__":
     app.run()
